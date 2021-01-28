@@ -5,7 +5,7 @@ const app = express()
 
 // const MNEMONIC = process.env.MNEMONIC
 const PRIVATE_KEY = process.env.PRIVATE_KEY
-const CONTRACT_ADDRESS = '0xf6FFd12C5Ed913e8f2eB89b46b865C4B1e1c57e2'
+const CONTRACT_ADDRESS = '0xf6FFd12C5Ed913e8f2eB89b46b865C4B1e1c57e2' // simple test smart contract on rinkeby
 const ABI = [
     'function set(uint x)',
     'function get() public view returns (uint)'
@@ -42,6 +42,7 @@ app.get('/set/:value', async (req, res) => {
 // with endpoints defined above we can tell express to listen for incoming requests
 app.listen()
 
+// more to come
 
 
 
