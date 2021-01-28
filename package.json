@@ -1,0 +1,10 @@
+{
+  "name": "eth-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.0.26",
+    "express": "^4.17.1"
+  }
+}
