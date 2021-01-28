@@ -5,6 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "ethers": "^5.0.26",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "now": "^21.0.1",
+    "vercel": "^21.2.1"
   }
 }
